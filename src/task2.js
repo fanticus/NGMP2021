@@ -1,7 +1,7 @@
-const { createReadStream, createWriteStream } = require( "fs" );
-const { join } = require( "path" );
-const csv = require( "csvtojson" );
-const { pipeline } = require( "stream" );
+import { createReadStream, createWriteStream } from "fs";
+import { join } from "path";
+import csv from "csvtojson";
+import { pipeline } from "stream";
 
 const csvPath = join( __dirname, "./csv/file.csv" );
 const txtPath = join( __dirname, "./txt/file.txt" );
