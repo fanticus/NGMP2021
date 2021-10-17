@@ -1,0 +1,24 @@
+{
+	"name": "NGMP2021",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [ "NodeJS" ],
+	"scripts": {
+		"task1": "nodemon src/task1.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fanticus/NGMP2021.git"
+	},
+	"author": "Marchuk Aleksei",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fanticus/NGMP2021/issues"
+	},
+	"homepage": "https://github.com/fanticus/NGMP2021#readme",
+	"devDependencies": {
+		"nodemon": "^2.0.13"
+	}
+}
