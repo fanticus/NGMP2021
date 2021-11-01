@@ -4,8 +4,9 @@
 	"description": "",
 	"keywords": [ "NodeJS" ],
 	"scripts": {
-		"task1": "nodemon --exec babel-node src/task1.js",
-		"task2": "nodemon --exec babel-node src/task2.js",
+		"build": "babel ./src/task1.js ./src/task2.js -d ./dist",
+		"task1": "nodemon --exec babel-node ./src/task1.js",
+		"task2": "nodemon --exec babel-node ./src/task2.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"private": true,
@@ -23,6 +24,7 @@
 		"csvtojson": "^2.0.10"
 	},
 	"devDependencies": {
+		"@babel/cli": "^7.15.7",
 		"@babel/core": "^7.15.8",
 		"@babel/node": "^7.15.8",
 		"@babel/preset-env": "^7.15.8",
